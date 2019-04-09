@@ -11,9 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        showMyModal()
+       
     }
 
+    @IBAction func didTapOpen(_ sender: Any) {
+         showMyModal()
+    }
     private func showMyModal() {
         MyModalViewController().showAsPopover()
     }

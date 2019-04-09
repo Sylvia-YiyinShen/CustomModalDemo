@@ -13,3 +13,6 @@ Since Apple doesn't provide any built-in approach to show a ViewController as mo
 ## Pretty simple to use
 1. make your view controller adopt PoppableProtocol, implement var modalSize { get }
 2. just call showAsPopover() dismissAsPopover()
+
+
+![modal](https://user-images.githubusercontent.com/46996132/55789554-ebc08800-5afd-11e9-81f7-4575257d27ad.gif)
